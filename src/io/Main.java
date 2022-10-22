@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) {
-        File dosya = new File("patika.txt");
+        File dosya = new File("src/io/patika.txt");
         try {
             if (dosya.createNewFile()) {
                 System.out.println(dosya.getName() + " dosyası oluşturuldu");
