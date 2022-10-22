@@ -13,7 +13,7 @@ public class Main {
         }
         System.out.println("Size : "+myList.size());
         System.out.println("Kapasite : " +myList.getCapacity());
-        System.out.println(myList.toString());
+        System.out.println(myList);
         MyList<Integer> myList1;
         myList1=myList.subList(3,7);
         System.out.println(myList1);
